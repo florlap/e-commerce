@@ -1,0 +1,31 @@
+.container {
+    background-color: antiquewhite;
+    display: grid;
+    width: 20%;
+    /* height: 100%; */
+    grid-template-areas:
+        "uno"
+        "dos"
+        "tres"
+        "cuatro"
+        "cinco";
+
+}
+
+
+.navbar {
+    grid-area: navbar;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.children {
+    grid-area: children;
+}
+
+.footer {
+    grid-area: footer;
+    
+}
