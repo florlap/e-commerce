@@ -1,0 +1,15 @@
+.container {
+    background-color: antiquewhite;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    /* grid-template-columns: 10% 1fr 1fr;
+    grid-template-rows: 30% 500px 20%; */
+    grid-template-areas:
+        "email";
+    justify-content: center;
+}
+
+.email {
+    grid-area: email;
+}
