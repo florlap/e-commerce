@@ -1,18 +1,18 @@
 import React from 'react'
-import styles from '../../Styles/navbar.module.css'
+import styles from '../../Styles/navBar.module.css'
 
 const NavBar = () => {
   return (
     <div className={styles.container}>
       <div className={styles.primary}>
         <div className={styles.uno}>
-          <button>uno</button>
+          <button>Productos</button>
         </div>
         <div className={styles.dos}>
-          <button>dos</button>
+          <button>Beneficios</button>
         </div>
         <div className={styles.contact}>
-          <button>contacto</button>
+          <button>Contacto</button>
         </div>
       </div>
       <div className={styles.secundary}>
