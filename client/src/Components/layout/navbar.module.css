@@ -1,5 +1,5 @@
 .container {
-    background-color: antiquewhite;
+    /* background-color: rgb(36, 27, 214); */
     display: grid;
     width: 100%;
     grid-template-areas: "primary secundary";
