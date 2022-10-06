@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBar from './NavBar'
-import Sidebar from './Sidebar'
-import styles from './layout.module.css'
+// import Sidebar from './Sidebar'
+import styles from '../../Styles/layout.module.css'
 import Footer from './Footer'
 
 const Layout = ({ children }) => {
@@ -11,9 +11,9 @@ const Layout = ({ children }) => {
         <div className={styles.navbar}>
           <NavBar />
         </div>
-        <div className={styles.sidebar}>
+        {/* <div className={styles.sidebar}>
           <Sidebar />
-        </div>
+        </div> */}
         <div className={styles.children}>
           {children}
         </div>

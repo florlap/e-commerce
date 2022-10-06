@@ -1,15 +1,14 @@
 .container {
-    /* background-color: rgb(196, 219, 25); */
     display: grid;
-    width: 20%;
-    /* height: 100%; */
     grid-template-areas:
         "uno"
         "dos"
         "tres"
         "cuatro"
         "cinco";
-
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
 }
 
 
@@ -27,5 +26,5 @@
 
 .footer {
     grid-area: footer;
-    
+
 }
