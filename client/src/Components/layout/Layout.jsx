@@ -12,7 +12,6 @@ const Layout = ({ children }) => {
       <div className={styles.container}>
         <div className={styles.navbar}>
           <NavBar />
-          {/* <Carousel/> */}
         </div>
         {/* <div className={styles.sidebar}>
           <Sidebar />
