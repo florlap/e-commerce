@@ -3,6 +3,8 @@ import NavBar from './NavBar'
 // import Sidebar from './Sidebar'
 import styles from '../../Styles/layout.module.css'
 import Footer from './Footer'
+import Carousel from '../Carousel'
+
 
 const Layout = ({ children }) => {
   return (
@@ -10,6 +12,7 @@ const Layout = ({ children }) => {
       <div className={styles.container}>
         <div className={styles.navbar}>
           <NavBar />
+          <Carousel/>
         </div>
         {/* <div className={styles.sidebar}>
           <Sidebar />
