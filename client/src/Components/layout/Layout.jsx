@@ -3,7 +3,7 @@ import NavBar from './NavBar'
 // import Sidebar from './Sidebar'
 import styles from '../../Styles/layout.module.css'
 import Footer from './Footer'
-import Carousel from '../Carousel'
+
 
 
 const Layout = ({ children }) => {

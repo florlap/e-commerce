@@ -6,7 +6,7 @@ function Footer(props) {
     <div>
       <div className={styles.container} >
         <div className={styles.email} >
-          <h1>pies de pagina</h1>
+          <h1>Footer Redes sociales </h1>
         </div>
       </div>
     </div>

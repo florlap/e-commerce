@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../../Styles/navbar.module.css'
+import styles from '../../Styles/navBar.module.css'
 
 const NavBar = () => {
   return (
@@ -20,10 +20,10 @@ const NavBar = () => {
           <input type="text" />
         </div>
         <div className={styles.car}>
-          <button>carrito</button>
+          <button>Carrito</button>
         </div>
         <div className={styles.login}>
-          <button>login</button>
+          <button>Perfil</button>
         </div>
       </div>
     </div>
